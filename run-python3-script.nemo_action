@@ -1,0 +1,9 @@
+[Nemo Action]
+Active=true
+Name=Run Script with Python 3
+Comment=Run the currently selected Python file with Python 3.
+Exec=gnome-terminal --working-directory=%P -e "python3 %F"
+Icon-Name=run
+Selection=s
+Extensions=py;
+Quote=double
