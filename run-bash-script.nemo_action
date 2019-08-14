@@ -1,0 +1,9 @@
+[Nemo Action]
+Active=true
+Name=Run Script with Bash
+Comment=Open a terminal window and run the currently selected script with bash.
+Exec=gnome-terminal --working-directory=%P -e "/bin/bash %F"
+Icon-Name=run
+Selection=s
+Extensions=sh;
+Quote=double
