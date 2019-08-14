@@ -1,0 +1,9 @@
+[Nemo Action]
+Active=true
+Name=Add to VLC Playlist
+Comment=Add the currently selected file(s) to the VLC mediaplayer's playlist. 
+Exec=/usr/bin/vlc --playlist-enqueue %F
+Icon-Name=vlc
+Selection=notnone
+Extensions=mkv;flv;vob;ogv;ogg;avi;mov;wmv;rm;rmvb;amv;mp4;m4p;m4v;mpg;mp2;mpeg;mpe;mpv;m2v;3gp;
+Quote=double
